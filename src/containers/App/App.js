@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import {MoonLoader} from 'react-spinners';
+import { MoonLoader } from 'react-spinners';
 
 import classes from './App.module.css';
 import Card from '../../elements/Card/Card';
@@ -20,10 +20,10 @@ class App extends Component {
           <SearchBar/>
           <Card>
             <WeatherDetails/>
-            {<MoonLoader/>}
+            {/*<MoonLoader/>*/}
             {/*Preview*/}
             {/*ErrorNotice*/}
-          <Card/>
+          </Card>
         </main>
         <Footer/>
       </div>
